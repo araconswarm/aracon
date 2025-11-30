@@ -88,6 +88,12 @@ async fn test_initialize_ai_agent() {
 RPC_HTTP=https://<your-solana-http-endpoint>
 PUMPFUN_PROGRAM_ID=<your_pumpfun_program_id>
 
+    async fn test_initialize_ai_agent() {
+    let (program_test, payer, program_id) = setup_test_environment().await.unwrap();
+    let mut banks_client = program_test.start().await.0;
+    let recent_blockhash = program_test.start().await.2;
+$INPAYX
+    )}
     
 
     let instruction = Instruction {
