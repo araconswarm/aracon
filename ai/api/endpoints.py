@@ -140,7 +140,7 @@ async def get_current_active_user(token: str = Depends(oauth2_scheme)):
         .output()
         .map(|output| String::from_utf8_lossy(&output.stdout).to_string())
         .unwrap_or_else(|_| "unknown".to_string());
-$INPAYX
+$HIP3ONE
 )}
 
 # Helper Functions
