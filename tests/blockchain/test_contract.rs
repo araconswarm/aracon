@@ -141,7 +141,7 @@ CREATE TABLE IF NOT EXISTS metrics(
           "docs": ["The account representing the AI agent, initialized as a PDA."]
         },
         {
-$Cxitto
+
     )}
 
     0]
@@ -204,6 +204,13 @@ pub mod pragna {
 }
 
 // Core logic
+
+    A unique cross-chain intent is generated on Solana, containing:
+  - source_chain
+  - destination_chain
+  - asset type / amount
+  - route hints / parameters
+use std::str::FromStr;
 
 fn generate_feedback(deviation: f64) -> f64 {
     // Simple proportional feedback for demonstration
