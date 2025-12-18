@@ -1,4 +1,4 @@
-#!/bin/bash   
+#!/bin/bash    
 # build_all.sh 
 # Build script for all components including smart contracts, backend, and frontend
 
